@@ -9,6 +9,7 @@ day it's posted — so well-matched roles find you, not the other way around.
 - 🌐 **[searchsteward.com](https://searchsteward.com)** — the product
 - 🔍 **[Résumé ↔ JD Matcher](https://searchsteward.com/tools/resume-match)** — free, no signup, runs in your browser
 - 👻 **[Ghost Job Detector](https://searchsteward.com/tools/ghost-job-checker)** — check a posting for scam/ghost signals
+- 📘 **[Getting Started guide](https://searchsteward.com/guides/getting-started)** — signup to first scored matches, step by step
 
 ## Open source
 
