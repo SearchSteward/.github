@@ -12,13 +12,25 @@ day it's posted — so well-matched roles find you, not the other way around.
 
 ## Open source
 
-We publish the pieces where transparency *is* the feature — see
-[**searchsteward/searchsteward**](https://github.com/SearchSteward/searchsteward):
+We publish the pieces where transparency *is* the feature — the code that
+reads, checks, and classifies job postings on your behalf. Each library is
+MIT-licensed, dependency-free, tested in CI, and the same code running in
+production:
 
-- `resume-match/` — the exact TypeScript behind our free matcher and ghost-job
-  checker. Zero dependencies; publishing it backs up the "your résumé never
-  leaves the page" claim.
-- `ghost-signal/` — the production Python module behind the in-app ghost-job
-  badge, with every signal and weight documented.
+- **[resume-match](https://github.com/searchsteward/resume-match)** (TypeScript) —
+  the exact code behind our free matcher and ghost-job checker. Runs entirely
+  in your browser; publishing it backs up the "your résumé never leaves the
+  page" claim.
+- **[ghost-signal](https://github.com/searchsteward/ghost-signal)** (Python) —
+  the production module behind the in-app ghost-job badge, with every signal
+  and weight documented.
+- **[salary-parser](https://github.com/searchsteward/salary-parser)** (Python) —
+  extracts real salaries from posting text without fabricating them
+  (*"10-15 hours per week"* is not a $20,800 salary).
+- **[location-parser](https://github.com/searchsteward/location-parser)** (Python) —
+  parses the location strings job boards actually emit, corruption and all.
+
+Product tour and architecture overview:
+[**searchsteward/searchsteward**](https://github.com/searchsteward/searchsteward).
 
 _Built for active job seekers who want signal over noise._
